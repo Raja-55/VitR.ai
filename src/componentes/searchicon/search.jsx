@@ -45,7 +45,7 @@ const fetchData = async (input) => {
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve(`Result for: ${input}`);
-    }, 2000); 
+    }, 2000);                                           
   });
 };
 

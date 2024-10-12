@@ -44,6 +44,7 @@ const Main = () => {
                 <img src={assets.vitR_icon} alt=''/>
                 <p>{recentPrompt}</p>
               </div>
+        
               <div className="result-data">
                 <img src= {assets.load_icon} alt=''/>
                 <p dangerouslySetInnerHTML={{__html:resultData}}></p>
